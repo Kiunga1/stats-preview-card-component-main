@@ -23,7 +23,7 @@
     5. Improve media defaults
   */
   img, picture, video, canvas, svg {
-    display: block;
+    
     max-width: 100%;
   }
   /*
@@ -52,7 +52,8 @@
     background-color:  hsl(244, 38%, 16%);
     border-radius: 0.5rem;
     overflow: hidden;
-    max-width: 650px;
+    
+    
   }
   .content {
     padding: 1.7rem;
@@ -79,4 +80,40 @@
     display: grid;
     gap: 1rem;
   }
- 
+  span {
+    color: hsl(277, 64%, 61%);
+  }
+  img, span{
+    accent-color: hsl(277, 64%, 61%);
+  }
+  @media screen and (min-width: 600px) {
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .preview {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row-reverse;
+      max-width: 800px;
+      max-height: 600px;
+    }
+    .stats{
+      display: flex;
+
+    }
+    .content {
+      width: 100%;
+    }
+   .workPlace_img {
+    
+    height: auto;
+    width: 100%;
+   
+
+   }
+   
+  }
