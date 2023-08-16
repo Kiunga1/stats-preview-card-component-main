@@ -88,10 +88,16 @@
   }
   @media screen and (min-width: 600px) {
     body {
-      display: flex;
+      /*display: flex;
       align-items: center;
       justify-content: center;
-      flex-direction: column;
+      flex-direction: column;*/
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+      margin: 0;
     }
     .preview {
       display: flex;
